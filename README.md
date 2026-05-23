@@ -51,15 +51,32 @@ No more manually building test plans from scratch. No more logic bugs that slip 
 
 ## Why Chronex?
 
-Most existing tools either check code or do a surface-level text search. Chronex works at the spec level — before any code is written — which is where fixing things is cheapest.
+Most existing tools either check code or do a surface-level text search. 
+Chronex works at the spec level — before any code is written — which is 
+where fixing things is cheapest.
 
 A few things that make it different:
 
-- **It catches contradictions across the whole doc, not just adjacent lines.** A rule on page 4 conflicting with something on page 47 — Chronex finds it.
-- **It understands context.** It doesn't flag a conditional rule as a contradiction to an unconditional one. It knows the difference.
-- **You resolve everything inside the platform.** No exports, no manual cross-referencing, no switching between tools.
-- **The test suite comes from verified rules only.** Other tools generate test cases from whatever's in the doc. Chronex only generates them after contradictions are cleared — so your test suite actually reflects what the game is supposed to do.
-- **It works on any game doc.** Design docs, lore bibles, system specs, chat logs, whatever format your team uses.
+- **Built for game docs, not software specs.** Every other test generation 
+  tool out there — BrowserStack, TestCollab, Keysight — works from PRDs, 
+  user stories, or Jira tickets. Clean, structured, software-style inputs. 
+  Nobody is solving this for game docs, lore files, and multi-author 
+  design specs.
+
+- **It generates test cases from verified rules only.** Other tools take 
+  whatever's in your doc and run with it. Chronex only generates the test 
+  suite after contradictions are cleared — so your tests actually reflect 
+  what the game is supposed to do, not a broken spec.
+
+- **It catches contradictions across the whole doc, not just adjacent 
+  lines.** A rule on page 4 conflicting with something on page 47 — 
+  Chronex finds it.
+
+- **It understands context.** It doesn't flag a conditional rule as a 
+  contradiction to an unconditional one. It knows the difference.
+
+- **You resolve everything inside the platform.** No exports, no manual 
+  cross-referencing, no switching between tools.
 
 ---
 
