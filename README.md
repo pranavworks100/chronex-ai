@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://chronex.dev">🔗 Live App</a> &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="[https://youtu.be/aiIke5tNuQ8](https://youtu.be/aiIke5tNuQ8?si=HNe-thbdHVmf8HGy)">▶️ Watch Demo</a>
+  <a href="https://youtu.be/aiIke5tNuQ8?si=HNe-thbdHVmf8HGy">▶️ Watch Demo</a>
 </p>
 
 ---
@@ -18,7 +18,7 @@
 ## Demo
 
 <p align="center">
-  <a href="[https://youtu.be/aiIke5tNuQ8](https://youtu.be/aiIke5tNuQ8?si=HNe-thbdHVmf8HGy)">
+  <a href="https://youtu.be/aiIke5tNuQ8?si=HNe-thbdHVmf8HGy">
     <img src="chronex thumbnail.png" alt="Watch Chronex Demo" width="700" />
   </a>
 </p>
